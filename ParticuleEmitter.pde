@@ -21,7 +21,7 @@ class ParticuleEmitter {
        float xoff = 0;
        float yoff = 0;
        noiseSeed (int (random (100000)));
-       texture.loadPixels();
+       texture.loadPixels ();
        for (int y = 0; y < size; y++) {
          yoff += 0.02;
          xoff = 0;
