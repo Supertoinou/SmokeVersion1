@@ -28,10 +28,6 @@ class Particule {
     image (texture, position.x, position.y);
   }
   
-  public void addForce (PVector force) {
-    velocity.add (force);  
-  }
-  
   public boolean isOut () {
     if (lifespan <= 0) {
       return true;
