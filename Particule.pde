@@ -6,7 +6,7 @@ class Particule {
   private float lifespan;
   private float decayRate;
   
-  public Particule ( PImage texture) {
+  public Particule (PImage texture) {
     this.texture = texture;
     position = new PVector (0, 0);
     velocity = new PVector (0, 0);
