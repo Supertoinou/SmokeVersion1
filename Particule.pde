@@ -25,7 +25,6 @@ class Particule {
     lifespan -= decayRate;
     position.add (velocity);
     tint (255, lifespan);
-    //shape (shape, position.x, position.y);
     image (texture, position.x, position.y);
   }
   
